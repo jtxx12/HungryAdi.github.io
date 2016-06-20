@@ -13,8 +13,11 @@ body {
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-image: url("dickbutttumbnail.png");
-    background-size: auto;
+    background-image: url("dickbutttumbnail.png") no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-color: rgb(0,0,0); /* Black fallback color */
     background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
     overflow-y: hidden; /* Disable horizontal scroll */
